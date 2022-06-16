@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    margin-top: 30px;
+    color: rgba(255, 123, 0, 0.76);
+     font-size: 500%; 
+     border: 2px solid rgb(255, 123, 0, 0.76); 
+     text-align: center;
+    
+}
+.hero{
+
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) url(https://c0.wallpaperflare.com/preview/661/131/640/pharmacist-pharmacy-medicine-man.jpg) ;
+    background-size: cover;
+    position: absolute;
+
+}
+
+
+.form-box{
+    
+
+    left: 40%;
+    height: 1000px;
+    width: 400px;
+    position: relative;
+    margin: 4% auto;
+    /*background: rgb(230, 227, 227);*/
+    background: transparent;
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: 10px 0 10px 9px #a8c50600;
+    border-radius: 50px;
+}
+
+
+.button-box{
+    height: 50px;
+    width: 223px;
+    position: relative;
+    margin-left:  80px;
+    margin-top: 20px;
+    box-shadow: 10px 0 10px 9px #fab80331;
+    border-radius: 30px;
+
+}
+
+.toggle-btn{
+    padding:  20px 30px;
+    cursor: pointer;
+    background: transparent ;
+    border: 0;
+    outline:  none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff9a27,#cde211);
+    border-radius: 30px;
+    transition: .5s;
+}
+.input-group{
+    top : 180px;
+    position: absolute;
+    width: 280px ;
+    transition: 0.5s;
+    text-align: center;
+    
+  
+
+}
+.input-field{
+
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 50px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 5px solid rgb(212, 141, 8) ;
+    outline: none;
+    background: transparent;
+    
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 15px 70px;
+    background: linear-gradient(to right,#ff9a27,#cde211);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+   
+}
+.chech-box{
+    margin: 30px 10px 0 ;
+}
+
+.span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+   
+
+
+}
+
+#login{
+    left: 10px;
+
+}
+
+#register{
+    left: 450px;
+    
+}

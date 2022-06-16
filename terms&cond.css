@@ -1,0 +1,40 @@
+*{
+    margin: 25px;
+    padding:2px;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin-top: 75px;
+    color:rgb(24, 23, 23);
+    font-size: 150%;
+    text-align: center;
+    font-style: italic;
+}
+
+p{
+    margin-top: 150px;
+    color:rgb(19, 18, 18);
+    font-size: 100%;
+    text-align:left;
+}
+button{
+
+    color: rgb(28, 29, 28)
+     font-size: 15px;
+     text-align: auto;
+     margin-left: 750px;
+     box-shadow: 10px 0 10px 9px #0205011f;
+     position: relative;
+     border-radius: 30px ;
+     background: transparent ;
+    
+
+}
+.bn{
+    background-color:transparent;
+    border-radius: 30px;  
+    box-shadow: 10px 0 10px 9px #0205011f;
+    color: rgb(24, 22, 22); 
+    font-size: 20px;
+}
